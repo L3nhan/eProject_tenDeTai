@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Structure of JQuery</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+
+	//$(selector).action();
+	$(document).ready(function(){
+		//begin
+		  $("button").click(function(){
+			
+			$("p").hide();	//-> hidden element
+			//$(".mine").hide();	//-> hidden element	
+		  
+		  }); //end click
+		//End
+	});//end ready
+
+</script>
+
+</head>
+<body>
+
+    <h2>This is a heading</h2>
+    
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p class="mine">This is Class-paragraph.</p>
+    
+    <button>Click me to hide paragraphs</button>
+
+</body>
+
+</html>
